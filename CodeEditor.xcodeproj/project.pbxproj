@@ -14,7 +14,7 @@
 		02C0F30E294D249000DCB24D /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = 02C0F30D294D249000DCB24D /* Runestone */; };
 		02C0F310294D277500DCB24D /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0F30F294D277500DCB24D /* CodeEditorView.swift */; };
 		02C0F314294E422100DCB24D /* SettingButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0F313294E422100DCB24D /* SettingButtonModifier.swift */; };
-		02C0F316294E4CC500DCB24D /* SettingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0F315294E4CC500DCB24D /* SettingButtons.swift */; };
+		02C0F316294E4CC500DCB24D /* SettingsToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C0F315294E4CC500DCB24D /* SettingsToolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		02C0F305294D1AC700DCB24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02C0F30F294D277500DCB24D /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
 		02C0F313294E422100DCB24D /* SettingButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonModifier.swift; sourceTree = "<group>"; };
-		02C0F315294E4CC500DCB24D /* SettingButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtons.swift; sourceTree = "<group>"; };
+		02C0F315294E4CC500DCB24D /* SettingsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				02C0F2FE294D1AC500DCB24D /* CodeEditorApp.swift */,
 				02C0F300294D1AC500DCB24D /* ContentView.swift */,
 				02C0F30F294D277500DCB24D /* CodeEditorView.swift */,
-				02C0F315294E4CC500DCB24D /* SettingButtons.swift */,
+				02C0F315294E4CC500DCB24D /* SettingsToolbar.swift */,
 				02C0F313294E422100DCB24D /* SettingButtonModifier.swift */,
 				02C0F302294D1AC700DCB24D /* Assets.xcassets */,
 				02C0F304294D1AC700DCB24D /* Preview Content */,
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C0F316294E4CC500DCB24D /* SettingButtons.swift in Sources */,
+				02C0F316294E4CC500DCB24D /* SettingsToolbar.swift in Sources */,
 				02C0F301294D1AC500DCB24D /* ContentView.swift in Sources */,
 				02C0F310294D277500DCB24D /* CodeEditorView.swift in Sources */,
 				02C0F2FF294D1AC500DCB24D /* CodeEditorApp.swift in Sources */,
