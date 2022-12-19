@@ -14,22 +14,20 @@ struct ContentView: View {
     
     
     var body: some View {
-        VStack{
-            SettingButtons(
-                lineSpacing: $lineSpacing,
-                showLineNumbers: $showLineNumbers,
-                showLineWrapping: $showLineWrapping
-            )
-            CodeEditorView(
-                lineSpacing: lineSpacing,
-                showLineNumbers: showLineNumbers,
-                showLineWrapping: showLineWrapping
-            )
-            
+        NavigationStack {
+            CodeEditorView()
+                .showsLineNumbers($showLineNumbers)
+                .lineWrapping($showLineWrapping)
+                .lineHeight($lineSpacing)
+            .toolbar {
+                SettingsToolbar(
+                    lineSpacing: $lineSpacing,
+                    showLineNumbers: $showLineNumbers,
+                    showLineWrapping: $showLineWrapping
+                )
+            }
+            .toolbarRole(.editor)
         }
-        
-        .padding()
-        
     }
 }
 
